@@ -14,7 +14,6 @@ type Request struct {
 	a  int
 	b  int
 	c  int
-	id int
 }
 
 func requestToServer(reqq Request, wg *sync.WaitGroup) {
